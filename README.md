@@ -1,12 +1,86 @@
-# React + Vite
+# EduAid – AI-Powered Learning Roadmap Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="https://i.imgur.com/your-demo-image.png" alt="EduAid Screenshot" width="80%"/>
+  <p>
+    <em>Transform your learning journey with AI-curated roadmaps.</em>
+  </p>
+  <p>
+    <a href="#-live-demo">View Demo</a> •
+    <a href="#-features">Features</a> •
+    <a href="#-tech-stack">Tech Stack</a> •
+    <a href="#%EF%B8%8F-getting-started">Get Started</a> •
+    <a href="#-license">License</a>
+  </p>
+</div>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Introduction
+*EduAid* solves the modern learner's dilemma: "I want to learn X, but where do I start?" By leveraging Gemini AI, it generates *personalized learning roadmaps* with milestones, exercises, and free resources tailored to your skill level.
 
-## Expanding the ESLint configuration
+*Built for*:
+- Self-taught developers 👩💻
+- Career switchers 🔄
+- Students & lifelong learners 🎓
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Problem Statement
+### The Chaos of Self-Directed Learning
+| Problem | EduAid's Solution |
+|---------|------------------|
+| ❌ *Too many resources* overwhelm beginners | ✅ *AI-curated* high-quality content |
+| ❌ No clear *learning path* | ✅ *Milestone-based roadmap* |
+| ❌ Hard to *track progress* | ✅ Interactive *checklist system* |
+| ❌ Generic *one-size-fits-all* courses | ✅ *Personalized* by skill level (Beginner/Intermediate/Advanced) |
+
+---
+
+## 🚀 Features
+### Core Features
+| Feature | Description | Preview |
+|---------|-------------|---------|
+| *AI Roadmap Generator* | Gemini-powered step-by-step plans | ![Roadmap GIF]() |
+| *Resource Integration* | Auto-suggests free YouTube videos, GitHub repos, and docs | ![Resources GIF]() |
+| *Progress Tracker* | Checklist with completion stats | ![Progress GIF]() |
+
+### Premium Features (Optional)
+- 🔍 Job listings integration
+- 📚 Udemy course recommendations
+- 🗂 Project portfolio builder
+
+---
+
+## 🧰 Tech Stack
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white)
+
+### Backend
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+### Deployment
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+---
+
+## ⚡ Getting Started
+### Prerequisites
+- Node.js ≥18.x
+- Gemini API key
+
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/your-username/eduaid.git
+
+# Install dependencies
+cd frontend && npm install
+cd ../backend && npm install
+
+# Configure environment variables
+echo "GEMINI_API_KEY=your_key_here" > backend/.env
