@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import JobListing from './Components/JobListing';
 import Home from './Pages/Home';
-import DemoCourses from './Components/demoCourses';
+import DemoCourses from './Components/DemoCourse';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -16,7 +16,7 @@ root.render(
       <Route path='/landing' element={<App />}/>
       <Route path='/joblisting' element={<JobListing/>}/>
       <Route path='/courses' element={<DemoCourses />}/>
-      <Route path='/higlited' element={<DemoCourses />}/>
+      <Route path='/higlited' element={<DemoCourse />}/>
 
     </Routes>
     

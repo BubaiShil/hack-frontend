@@ -3,7 +3,7 @@ import React from 'react';
 // import DemoCourses from './Components/demoCourses';
 // import HighlitedText from './Components/HighlitedText';
 
-import DemoCourses from './demoCourses';
+import DemoCourses from './DemoCourse';
 import HighlitedText from './HighlitedText';
 import RoadmapDisplay from './RoadDisplay';
 
