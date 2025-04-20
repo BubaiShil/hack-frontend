@@ -20,7 +20,7 @@
 ## 🌟 Introduction
 
 **EduAid** solves the modern learner's dilemma:  
-> *"I want to learn X, but where do I start?"*
+
 
 By leveraging **Gemini AI**, EduAid generates personalized learning roadmaps with clear milestones, exercises, and free resources — tailored to your skill level.
 
@@ -79,42 +79,6 @@ By leveraging **Gemini AI**, EduAid generates personalized learning roadmaps wit
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
-
-## ⚡ Getting Started
-
-### Prerequisites
-
-- Node.js ≥18.x
-- Gemini API Key
-
----
-
-### 💾 Repository Structure
-
-```
-EduAid2.0/
-├── Frontend/    # React + Tailwind App
-├── Backend/     # Express.js server (API & Gemini Integration)
-```
-
----
-
-### 🛠 Installation
-
-```bash
-# Clone this repository
-git clone https://github.com/BubaiShil/EduAid2.0.git
-
-# Install Frontend dependencies
-cd EduAid2.0/Frontend
-npm install
-
-# Install Backend dependencies
-cd ../Backend
-npm install
-
-# Add your Gemini API Key to .env
-echo "GEMINI_API_KEY=your_key_here" > .env
 
 # Run Backend server
 npm run dev
